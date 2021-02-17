@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
+/**-------------------------------------------------------Heading---------**/
 header {
     margin: 0
 }
 
-/**-------------------------------------------------------Heading---------**/
-
 .title {
     font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    font-size: 80px;
+    font-weight: 100;
+    font-size: 5vw;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
@@ -33,27 +34,32 @@ header {
 }
 
 .menu-item {
+    width: 100%;
     height: 100px;
     text-align: center;
     padding: 0;
 }
 
-.menu-item {
-    background-color: #5c5c5c;
-}
-
 .menu-item a {
     width: 100%;
     text-decoration: none;
-    color: #fafafa;
+    color: black;
     height: 100px;
 }
 
 .menu-item a i {
     padding-top: 25px;
     display: block;
-    color: #fafafa;
+    color: black;
     font-size: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.menu-item a i:hover {
+    color: #46CDE3;
 }
 
 .menu-item span {
@@ -65,8 +71,23 @@ header {
     font-size: 14px;
     letter-spacing: 2px;
 }
-    
 
+.menu-item {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+.menu-item:before {
+    content:'';
+    position: absolute;
+    left: 0;
+    height: 80%;
+    bottom: 10%;
+    border-left: 2px solid black;
+}
+
+/**------------------------------------------------------------------------------Logo-----------**/
     
 .dragon-logo {
     background:url("../images/dragon-logo.png");
@@ -78,4 +99,29 @@ header {
 
 .dragon-logo {
     margin-top: 1em;
+}
+
+/**----------------------------------------------------------------------------Footer-------------**/
+
+footer {
+    min-height: 100px;
+    background-color: #777777
+}
+.social-links {
+    text-align: center;
+}
+
+.social-icon i {
+    font-size: 26px;
+    margin-top: 25px;
+    padding: 10px;
+    color: #fafafa;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.social-icon i:hover {
+    color: #46CDE3;
 }
