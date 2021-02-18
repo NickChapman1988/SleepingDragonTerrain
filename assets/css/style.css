@@ -4,7 +4,8 @@
 
 /**-------------------------------------------------------Heading---------**/
 header {
-    margin: 0
+    margin: 0;
+    padding: 0;
 }
 
 .title {
@@ -105,7 +106,10 @@ header {
 
 footer {
     min-height: 100px;
-    background-color: #777777
+    background-color: #777777;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 .social-links {
     text-align: center;
@@ -114,7 +118,8 @@ footer {
 .social-icon i {
     font-size: 26px;
     margin-top: 25px;
-    padding: 10px;
+    margin-bottom: 25px;
+    padding: 5px;
     color: #fafafa;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
