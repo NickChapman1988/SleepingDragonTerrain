@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
@@ -11,7 +11,7 @@ header {
 .title {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
-    font-size: 5vw;
+    font-size: 80px;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
@@ -110,6 +110,31 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #46cde3;
+}
+
+.link-text:hover {
+    text-decoration: none;
+    color: #3f82e0;
+}
+
+.paragraph-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
 }
 
 /**----------------------------------------------------------------------------Footer-------------**/
@@ -117,9 +142,6 @@ header {
 footer {
     min-height: 86px;
     background-color: #777777;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 .social-links {
     text-align: center;
@@ -158,4 +180,40 @@ footer {
     color: #777777;
     border: 2px solid #46cde3;
     border-radius: 50%;
+}
+
+.three-columns p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 32px;
+}
+
+.get-in-touch-icon {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #46cde3;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.get-in-touch-icon:hover {
+    color: #3f82e0;
+}
+
+/* --------------------------------------------------------------About Page------------- */
+
+.about-column {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-column-one {
+    margin-top: 50px;
+}
+
+.about-column-two {
+    margin-bottom: 50px;
 }
