@@ -11,7 +11,7 @@ header {
 .title {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
-    font-size: 80px;
+    font-size: 4.5vh;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
@@ -215,5 +215,28 @@ footer {
 }
 
 .about-column-two {
+    margin-bottom: 50px;
+}
+
+/* --------------------------------------------------------------Contact Page----------- */
+
+.contact-column {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-form-label,.col-form-label-sm {
+    margin-right: 5px;
+}
+
+.submit-btn {
+    background-color: #46cde3;
+    color: #fafafa;
+}
+
+.contact-intro {
     margin-bottom: 50px;
 }

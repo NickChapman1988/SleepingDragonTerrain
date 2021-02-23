@@ -57,49 +57,59 @@
         </div>
     </header>
     <section>
-        <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
-            <div class="form-group row">
-                <div class="col-md-8 offset-md-2">
+        <div class="row">
+            <div class="col-10 offset-1 col-lg-8 offset-lg-2 contact-column">
+                <h2 class="section-heading">
+                    Got a project in mind?
+                </h2>
+                <p class="col-lg-8 offset-lg-2 contact-intro">
+                    Got an idea for something you'd like us to make? Whether it's a single piece, a set of terrain, or a whole gaming board, we'd love to hear from you! 
+                    Fill out the contact form below with details of your project, and we'll get in touch to discuss how we can help!
+                </p>
+                <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
                     <div class="form-group row">
-                        <label for="fname" class="col-2 name-label">Name:</label>
-                        <div class="col-10">
-                            <input type="text" name="full_name" id="fname" class="text-input form-control" required>
+                        <div class="col">
+                            <div class="form-group row">
+                                <label for="fname" class="col-2 col-lg-1 offset-lg-2 col-form-label name-label">Name:</label>
+                                <div class="col-lg-7">
+                                    <input type="text" name="full_name" id="fname" class="text-input form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="email" class="col-2 col-lg-1 offset-lg-2 col-form-label email-label">Email:</label>
+                                <div class="col-lg-7">
+                                    <input type="email" name="full_name" id="email" class="text-input form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="projectdescr" class="col-2 col-lg-1 offset-lg-2 col-form-label-sm project-description-label">Project Description:</label>
+                                <div class="col-lg-7">
+                                    <textarea name="project_description" id="projectdesc" class="text-input form-control" required>
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="timeframe" class="col-2 col-lg-1 offset-lg-2 col-form-label-sm timeframe-label">Timeframe:</label>
+                                <div class="col-lg-7">
+                                    <input type="text" name="timeframe" id="" class="text-input form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="budget" class="col-2 col-lg-1 offset-lg-2 col-form-label budget-label">Budget:</label>
+                                <div class="col-lg-7"> 
+                                    <input type="text" name="budget" id="budget" class="text-input form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-4 offset-md-4">
+                                    <button type="submit" class="btn submit-btn">Submit!</button>
+                                </div>        
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-2 email-label">Email:</label>
-                        <div class="col-10">
-                            <input type="email" name="full_name" id="email" class="text-input form-control" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="projectdescr" class="col-2 project-description-label">Project Description:</label>
-                        <div class="col-10">
-                            <textarea name="project_description" id="projectdesc" class="text-input form-control" placeholder="Please provide a brief description of 
-                            your project idea" required>
-                            </textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="timeframe" class="col-2 timeframe-label">Timeframe:</label>
-                        <div class="col-10">
-                            <input type="text" name="timeframe" id="" class="text-input form-control" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="budget" class="col-2 budget-label">Budget:</label>
-                        <div class="col-10"> 
-                            <input type="text" name="budget" id="budget" class="text-input form-control">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-2 offset-5">
-                            <button type="submit" class="submit-btn">Submit!</button>
-                        </div>        
-                    </div>
-                </div>
+                </form>
             </div>
-        </form>
+        </div>
     </section>
     <footer class="container-fluid">
         <div class="row">

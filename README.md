@@ -35,6 +35,7 @@ that makes it easy for users to engage with the content, browse a gallery of pre
 
 ## UX
 ## Strategy
+
 **Business Goals**
     * To engage with potential clients and present examples of past work
     * To encourage users to book commission work and to buy products
@@ -43,11 +44,34 @@ that makes it easy for users to engage with the content, browse a gallery of pre
 **User Stories**
     
 ## Scope
+
+The website is based on a MVP (Minimum Viable Product) methodology, for several reasons:
+
+* Keeps the website uncluttered and minimalistic, avoiding information overload for users
+* Makes site easier to navigate, with only key information displayed
+* In line with my current abilities
+* Meets the necessary needs of the user and business owner 
+
 ## Structure
+
+The website is split into four sections - a home (landing) page, an about page, gallery page and contact page. The fixed navbar and footer allow the user to easily navigate the site 
+and get in touch, and present a consistent layout. The Home page is designed to hold a summarised version of the key information for the user, with further information accessible 
+on the About page. 
+
 ## Skeleton
+
+The website follows my initial four section plan, and closely resembles the initial wireframes (with slight changes to enable better mobile-first design e.g. navbar).
+
 ## Surface
+
+I wanted to maintain a clean and spartan presentation in order to avoid distraction for users and all the information presented to be the focus of attention. The high contrast 
+of black/dark greys and white works to present a clean palette to users, while the bright blue spot colours serve to draw attention to key interactive elements (links, nav 
+elements and social icons). 
+
 ### Images
 ### Colours
+
+
 ### Typography
 ### Icons
 ## Features
