@@ -116,7 +116,9 @@ layout, the Nav Menu and Contact Form.
  to keep icons on single line on all screen sizes
 
 * H1 title would wrap onto two and then three lines as screen size reduced, expanding header and taking up too much screen space. 
- Changed font size to use 'vh' instead of absolute size so that text would scale better with screen size; ultimately, implementing responsive font sizes would be a better solution.
+ Changed font size to use 'vh' instead of absolute size so that text would scale better with screen size; this worked to make the font size more responsive for smaller 
+ devices, but made it too small for screens with greater width than height (i.e. desktops and any device in a landscape position). Finally changed to 4vmax to use 
+ the larger of vw or vh, which allowed a responsive title size across all devices. 
 
 ## Deployment
 ## Credits
