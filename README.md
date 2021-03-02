@@ -60,7 +60,8 @@ on the About page.
 
 ## Skeleton
 
-The website follows my initial four section plan, and closely resembles the initial wireframes (with slight changes to enable better mobile-first design e.g. navbar).
+The website follows my initial four section plan, and loosely follows the initial wireframes (with slight changes to enable better mobile-first design e.g. navbar and 
+removal of the carousel feature).
 
 ## Surface
 
@@ -86,6 +87,13 @@ as the back-up font. 'Raleway' was chosen because of it's thin weight and elegan
 * Font Awesome was used extensively to provide appropriate icons, such as for social media icons in the footer, menu bar icons and accompanying much of the text content on pages.
 
 ## Features
+#### Navbar
+* I wanted users to easily be able to navigate the site from every page.
+* The navbar resizes responsively to still be visible on mobile devices, with the site logo disappearing to make room as the screen size reduces.
+
+#### Footer
+* Includes social media clickable icons linking to respective social medias sites, opening in new tabs when clicked. 
+
 ## Technologies Used
 
 #### Languages:
@@ -110,6 +118,12 @@ layout, the Nav Menu and Contact Form.
 
 
 ## Testing
+* Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the 'Submit' 
+button on the Contact Form without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
+* Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. For a better UX experience, I made sure 
+each link has either a colour change colour-changing icon when hovered (with exception of the logo when visible) and included a target="_blank" attribute so that a new 
+browser tab is opened when clicked.
+
 ## Project Bugs and Solutions
 
 * Social icons in footer would wrap onto two lines on screens between 564px and 664px. Solved by reducing padding of icons to 5px instead of 10px

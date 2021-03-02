@@ -240,3 +240,13 @@ footer {
 .contact-intro {
     margin-bottom: 50px;
 }
+
+/* ---------------------------------------------------------------Gallery------------------ */
+
+.gallery-column {
+    padding: 49px 0;
+}
+
+.gallery-column img {
+    padding: 1px 0;
+}
