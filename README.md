@@ -45,8 +45,11 @@ that makes it easy for users to engage with the content, browse a gallery of pre
 **User Stories**
 
 * "As a busy parent with a full time job, I don't have time to build terrain for myself. I want to use what time I have playing the game, not building scenery." 
+
 * "I wouldn't know where to start building my own scenery. I'd much rather get someone else to make whatever I need and buy it ready to game with."
+
 * "It costs just as much money to make my own terrain as to buy it ready-made, so it's just quicker to get it made for me."
+
 * "I'd love a full custom built gaming table, but wouldn't have a clue how to do it myself. Normally I'd buy scenery at shows but with Covid going round there are no shows happening, 
 and it's really hard to find places to get custom boards made online."
 
