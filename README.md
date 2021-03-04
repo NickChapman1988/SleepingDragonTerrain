@@ -37,11 +37,19 @@ that makes it easy for users to engage with the content, browse a gallery of pre
 ## Strategy
 
 **Business Goals**
-    * To engage with potential clients and present examples of past work
-    * To encourage users to book commission work and to buy products
-    * To increase exposure and customer base through positive user experiences
+
+* To engage with potential clients and present examples of past work
+* To encourage users to book commission work and to buy products
+* To increase exposure and customer base through positive user experiences
     
 **User Stories**
+
+* "As a busy parent with a full time job, I don't have time to build terrain for myself. I want to use what time I have playing the game, not building scenery." 
+* "I wouldn't know where to start building my own scenery. I'd much rather get someone else to make whatever I need and buy it ready to game with."
+* "It costs just as much money to make my own terrain as to buy it ready-made, so it's just quicker to get it made for me."
+* "I'd love a full custom built gaming table, but wouldn't have a clue how to do it myself. Normally I'd buy scenery at shows but with Covid going round there are no shows happening, 
+and it's really hard to find places to get custom boards made online."
+
     
 ## Scope
 
@@ -60,8 +68,13 @@ on the About page.
 
 ## Skeleton
 
-The website follows my initial four section plan, and loosely follows the initial wireframes (with slight changes to enable better mobile-first design e.g. navbar and 
-removal of the carousel feature).
+The website follows my initial four section plan, and loosely follows the initial wireframes with slight changes to enable better mobile-first design e.g. navbar and 
+removal of the carousel feature, and removal of the planned header image.
+
+* Home Page: <a href="assets/docs/wireframes/home.pdf" target="_blank">Home</a>
+* About Page: <a href="assets/docs/wireframes/about.pdf" target="_blank" >About</a>
+* Gallery Page: <a href="assets/docs/wireframes/gallery.pdf" target="_blank" >Gallery</a>
+* Contact Page: <a href="assets/docs/wireframes/contact.pdf" target="_blank" >Contact</a>
 
 ## Surface
 
