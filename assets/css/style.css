@@ -247,6 +247,18 @@ footer {
     padding: 49px 0;
 }
 
+.gallery-heading, .gallery-intro {
+    text-align: center;
+}
+
 .gallery-column img {
     padding: 1px;
+}
+
+.gallery-block {
+    padding: 25px 0;
+}
+
+.gallery-block p {
+    padding-bottom: 25px;
 }
