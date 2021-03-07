@@ -48,7 +48,7 @@ header {
     height: 100px;
 }
 
-.menu-item a i {
+.menu-item a i{
     padding-top: 25px;
     display: block;
     color: black;
@@ -75,12 +75,14 @@ header {
 
 /* -----------------------------------------------------------------Menu Bar Borders---------------- */
 
+/*Add border to menu bar*/
 .menu-item {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     position: relative;
 }
 
+/*Partial borders on left and right*/
 .menu-item:before {
     content:'';
     position: absolute;
@@ -106,6 +108,7 @@ header {
 
 /* ----------------------------------------------------------------------------General------------- */
 
+/*For page headings*/
 .section-heading {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
@@ -113,17 +116,17 @@ header {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-
+/*For internal and external links*/
 .link-text {
     text-decoration: none;
     color: #46cde3;
 }
-
+/*Hover effect for links*/
 .link-text:hover {
     text-decoration: none;
     color: #3f82e0;
 }
-
+/*Sub-headings on pages*/
 .paragraph-heading {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
@@ -131,7 +134,7 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/*All text*/
 p {
     font-family: "Open Sans", sans-serif;
     text-align: justify;
@@ -147,6 +150,7 @@ footer {
     text-align: center;
 }
 
+/*Social icons with hover colour change*/
 .social-icon i {
     font-size: 26px;
     margin-top: 25px;
@@ -187,7 +191,7 @@ footer {
     padding-right: 10px;
     margin-bottom: 32px;
 }
-
+/*Speech bubble under "Get In Touch" column*/
 .get-in-touch-icon {
     font-size: 36px;
     margin-bottom: 25px;
@@ -210,10 +214,12 @@ footer {
     padding-right: 15px;
 }
 
+/*Top section*/
 .about-column-one {
     margin-top: 50px;
 }
 
+/*Bottom section*/
 .about-column-two {
     margin-bottom: 50px;
 }
@@ -228,6 +234,7 @@ footer {
     margin-bottom: 50px;
 }
 
+/*Field labels*/
 .col-form-label,.col-form-label-sm {
     margin-right: 5px;
 }
@@ -238,27 +245,28 @@ footer {
 }
 
 .contact-intro {
-    margin-bottom: 50px;
+    margin-bottom: 50px; /*Margin between text ending and form beginning*/
 }
 
 /* ---------------------------------------------------------------Gallery------------------ */
 
 .gallery-column {
-    padding: 49px 0;
+    padding: 49px 0; 
+    margin-bottom: 50px; /*Space between bottom image and footer*/
 }
 
 .gallery-heading, .gallery-intro {
-    text-align: center;
+    text-align: center; /*Center heading and intro text, not sub-headings and gallery text*/
 }
 
 .gallery-column img {
-    padding: 1px;
+    padding: 1px; /*Small gap between images*/
 }
 
 .gallery-block {
-    padding: 25px 0;
+    padding: 25px 0; /*Padding to space each gallery */
 }
 
 .gallery-block p {
-    padding-bottom: 25px;
+    padding-bottom: 25px; /*Padding between text and gallery images*/
 }
