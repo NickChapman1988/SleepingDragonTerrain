@@ -48,7 +48,7 @@ header {
     height: 100px;
 }
 
-.menu-item a i{
+.menu-button {
     padding-top: 25px;
     display: block;
     color: black;
@@ -59,7 +59,7 @@ header {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.menu-item a i:hover {
+.active, .menu-button:hover {
     color: #46CDE3;
 }
 
