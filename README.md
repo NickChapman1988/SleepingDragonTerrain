@@ -154,5 +154,6 @@ browser tab is opened when clicked.
 ## Credits
 
 * The ability to add partial borders to the navbar was made possible thanks to [this guide](https://dev.to/designfrontier/css-only-partial-width-borders-4lcf) from Daniel Sellers.
+* 'Grow Shadow' hover effect courtesy of [Hover.CSS](https://ianlunn.github.io/Hover/) by Ian Lunn. 
 
 ## Acknowledgements
