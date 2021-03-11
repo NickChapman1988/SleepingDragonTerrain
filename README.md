@@ -131,6 +131,7 @@ layout, the Nav Menu and Contact Form.
 * [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 * [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
 * [CSS-Tricks](https://css-tricks.com/) - Used as a general resource for CSS tips and questions
+* [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials
 
 
 ## Testing
@@ -154,6 +155,6 @@ browser tab is opened when clicked.
 ## Credits
 
 * The ability to add partial borders to the navbar was made possible thanks to [this guide](https://dev.to/designfrontier/css-only-partial-width-borders-4lcf) from Daniel Sellers.
-* 'Grow Shadow' hover effect courtesy of [Hover.CSS](https://ianlunn.github.io/Hover/) by Ian Lunn. 
+* 'Grow Shadow' and 'Icon Grow' hover effects courtesy of [Hover.CSS](https://ianlunn.github.io/Hover/) by Ian Lunn. 
 
 ## Acknowledgements
