@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* ----------------------------------------------------------------------------General------------- */
 
+/*Colors and fonts*/
+:root {
+    --black: #000000;
+    --grey: #777777;
+    --white: #fafafa;
+    --blue: #46cde3;
+    --darkblue: #3f82e0;
+    --heading: "Raleway";
+    --text: "Open Sans";
+}
+
+/*For page headings*/
+.section-heading {
+    font-family: var(--heading, sans-serif);
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/*For internal and external links*/
+.link-text {
+    text-decoration: none;
+    color: var(--blue);
+}
+/*Hover effect for links*/
+.link-text:hover {
+    text-decoration: none;
+    color: var(--darkblue);
+}
+/*Sub-headings*/
+.paragraph-heading {
+    font-family: var(--heading, sans-serif);
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*All text*/
+p {
+    font-family: var(--text, sans-serif);
+    text-align: justify;
+}
 
 /**-------------------------------------------------------Heading---------**/
 header {
@@ -9,7 +52,7 @@ header {
 }
 
 .title {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--heading, sans-serif);
     font-weight: 100;
     font-size: 4vmax;
     margin-top: 25px;
@@ -44,14 +87,14 @@ header {
 .menu-item a {
     width: 100%;
     text-decoration: none;
-    color: black;
+    color: var(--black);
     height: 100px;
 }
 
 .menu-button {
     padding-top: 25px;
     display: block;
-    color: black;
+    color: var(--black);
     font-size: 25px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -60,7 +103,7 @@ header {
 }
 
 .active, .menu-button:hover {
-    color: #46CDE3;
+    color: var(--blue);
 }
 
 .menu-item span {
@@ -77,8 +120,8 @@ header {
 
 /*Add border to menu bar*/
 .menu-item {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
     position: relative;
 }
 
@@ -89,7 +132,7 @@ header {
     left: 0;
     height: 80%;
     bottom: 10%;
-    border-left: 2px solid black;
+    border-left: 2px solid var(--black);
 }
 
 /**------------------------------------------------------------------------------Logo-----------**/
@@ -106,45 +149,13 @@ header {
     margin-top: 1em;
 }
 
-/* ----------------------------------------------------------------------------General------------- */
 
-/*For page headings*/
-.section-heading {
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 36px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-/*For internal and external links*/
-.link-text {
-    text-decoration: none;
-    color: #46cde3;
-}
-/*Hover effect for links*/
-.link-text:hover {
-    text-decoration: none;
-    color: #3f82e0;
-}
-/*Sub-headings on pages*/
-.paragraph-heading {
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-/*All text*/
-p {
-    font-family: "Open Sans", sans-serif;
-    text-align: justify;
-}
 
 /**----------------------------------------------------------------------------Footer-------------**/
 
 footer {
     min-height: 86px;
-    background-color: #777777;
+    background-color: var(--grey);
 }
 .social-links {
     text-align: center;
@@ -156,7 +167,7 @@ footer {
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 5px;
-    color: #fafafa;
+    color: var(--white);
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -164,7 +175,7 @@ footer {
 }
 
 .social-icon i:hover {
-    color: #46cde3;
+    color: var(--blue);
 }
 
 /* -----------------------------------------------------------Home Page------- */
@@ -181,8 +192,8 @@ footer {
     padding-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    color: #777777;
-    border: 2px solid #46cde3;
+    color: var(--grey);
+    border: 2px solid var(--blue);
     border-radius: 50%;
 }
 
@@ -195,7 +206,7 @@ footer {
 .get-in-touch-icon {
     font-size: 36px;
     margin-bottom: 25px;
-    color: #46cde3;
+    color: var(--blue);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -203,7 +214,7 @@ footer {
 }
 
 .get-in-touch-icon:hover {
-    color: #3f82e0;
+    color: var(--darkblue);
 }
 
 /* --------------------------------------------------------------About Page------------- */
@@ -240,8 +251,8 @@ footer {
 }
 
 .submit-btn {
-    background-color: #46cde3;
-    color: #fafafa;
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .contact-intro {
