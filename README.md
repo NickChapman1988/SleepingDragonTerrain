@@ -207,7 +207,23 @@ browser tab is opened when clicked.
         * **iPad:** Pro 12.9 2020, Mini 2019
 
 
-        Tested on Chrome, Firefox, Safari and UC
+* Tested on Chrome, Firefox, Safari and UC
+
+* Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly).
+- 1. **Home:**
+
+![Image](assets/images/home-mob-friendly.jpg)
+* 2. **About:**
+
+![Image](assets/images/about-mob-friendly.jpg)
+* 3. **Gallery:**
+
+![Image](assets/images/gallery-mob-friendly.jpg)
+* 4. **Contact:**
+
+![Image](assets/images/contact-mob-friendly.jpg)
+
+#### Validation
 
 ## Project Bugs and Solutions
 
@@ -245,3 +261,5 @@ browser tab is opened when clicked.
 * 'Grow Shadow' and 'Icon Grow' hover effects courtesy of [Hover.CSS](https://ianlunn.github.io/Hover/) by Ian Lunn. 
 
 ## Acknowledgements
+
+* 
