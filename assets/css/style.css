@@ -370,7 +370,6 @@ footer {
 
 .gallery-column img {
     padding: 1px; /*Small gap between images*/
-    align-items: flex-start;
 }
 
 .gallery-block {
