@@ -1,5 +1,5 @@
 # Sleeping Dragon Terrain – Milestone Project 1
-### View the live project [here.](link goes in here)
+### View the live project [here.](https://nickchapman1988.github.io/SleepingDragonTerrain/)
 
 The aim of this project was to create a user-friendly website for a scale modelling commission service, aimed at model railway builders, wargamers, boardgamers and roleplayers. 
 With many years of experience within the tabletop hobby, I know there’s very little online presence for this service and yet it is one I am regularly asked about, 
@@ -8,17 +8,16 @@ so I wanted to create a site where users can quickly and easily gain all the inf
 
 ## Table of Contents
 
-> -	[Overview](#Overview)
-> -	[Description](#Description)
-> -	[UX](#UX)
-> -	[User Stories](#User-Stories)
-> -	[Features](#Features)
-> -	[Technologies Used](#Technologies-Used)
-> -	[Testing](#Testing)
+> -	[Overview](#overview)
+> -	[Description](#description)
+> -	[UX](#ux)
+> -	[Features](#features)
+> -	[Technologies Used](#technologies-used)
+> -	[Testing](#testing)
 > -	[Project bugs and solutions](#project-bugs-and-solutions)
 > - [Deployment](#deployment)
 > -	[Credits](#credits)
-> - [Acknowledgements](#Acknowledgements)
+> - [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -39,7 +38,9 @@ that makes it easy for users to engage with the content, browse a gallery of pre
 **Business Goals**
 
 * To engage with potential clients and present examples of past work
+
 * To encourage users to book commission work and to buy products
+
 * To increase exposure and customer base through positive user experiences
     
 **User Stories**
@@ -66,13 +67,13 @@ The website is based on a MVP (Minimum Viable Product) methodology, for several 
 ## Structure
 
 The website is split into four sections - a home (landing) page, an about page, gallery page and contact page. The fixed navbar and footer allow the user to easily navigate the site 
-and get in touch, and present a consistent layout. The Home page is designed to hold a summarised version of the key information for the user, with further information accessible 
-on the About page. 
+and get in touch, and present a consistent layout. The Home page holds prominent site message and CTA button within the jumbotron and a summarised version of the key information 
+for the user, with further information accessible on the About page. 
 
 ## Skeleton
 
-The website follows my initial four section plan, and loosely follows the initial wireframes with slight changes to enable better mobile-first design e.g. navbar and 
-removal of the carousel feature, and removal of the planned header image.
+The website follows my initial four section plan, and loosely follows the initial wireframes with slight changes to enable better mobile-first design e.g. removal of the 
+carousel feature, and switching the planned header image to a jumbotron feature.
 
 * Home Page: <a href="assets/docs/wireframes/home.pdf" target="_blank">Home</a>
 * About Page: <a href="assets/docs/wireframes/about.pdf" target="_blank" >About</a>
@@ -86,6 +87,10 @@ of black/dark greys and white works to present a clean palette to users, while t
 elements and social icons). 
 
 ### Images
+
+Each of the images selected presents an example of past work, thereby establishing what the user can expect should they book the commission service. These serve both as 
+decoration and as functional examples to promote the commission work itself.
+
 ### Colours
 
 * I wanted to present a clean and minimalistic colour palette to users, to keep the site free of too much distraction and also to evoke a blank canvas for users' project ideas. 
@@ -106,9 +111,43 @@ as the back-up font. 'Raleway' was chosen because of it's thin weight and elegan
 #### Navbar
 * I wanted users to easily be able to navigate the site from every page.
 * The navbar resizes responsively to still be visible on mobile devices, with the site logo disappearing to make room as the screen size reduces.
+* The navbar uses a static colour change to indicate present site location, and colour change hover effect on the icons whilst navigating to a new page.
+* The user can click on the logo or navbar to take the user back to the Home page.
+
+#### Home 
+* Contains animated jumbotron image to showcase an example of commission work.
+* Text on top of jumbotron image draws attention to site's goal and the related call-to-action button, allowing users to quickly understand the site's purpose and get in touch. 
+
+#### About
+* This page consists of four areas with key information on what the business sells, who we are and details of the commission process. 
+
+#### Gallery
+* Contains multiple responsive gallery sections divided by 'theme' (which can easily be added to as more work is completed).
+* Number of images displayed responds to screen size so as to minimise scrolling on smaller devices.
+
+#### Contact
+* Allows users to get in touch and detail aspects of any work they'd like to commission.
 
 #### Footer
 * Includes social media clickable icons linking to respective social medias sites, opening in new tabs when clicked. 
+
+### Existing Features
+My website was designed to present key information quickly and easily, and make the booking process as simple as possible to avoid info overload for users. I designed it so that 
+it was clear and consistent across all pages and is accessible on all devices.
+* Home page: Fixed navbar allowing the user to easily navigate through the site. Multiple "Get in touch" buttons (one in jumbotron, one above footer) so the user 
+could submit an enquiry from multiple points on the page.
+* Gallery: Instead of using a carousel, for the Gallery page I used a multiple simple grid-based galleries as it was visually more appealing and better formatted on all devices.
+* Contact: Multiple CTA buttons linking to Contact form to allow easy access to the form; form requires at least name and email address to be complete, to prevent submission of 
+empty forms
+* Footer: Spacious footer with clearly visible social media icons, with colour change and grow hover effects to really make them stand out. Ample space for more features to be added.
+
+### Features Left to Implement
+* Expansion of galleries: where users can click the 'theme' they're interested in to be taken to a full gallery page with a lot more images of that theme
+* Expansion of footer: space has been left to add extra info in the footer, such as contact details, links to other relevant sites etc.
+* Functionality of forms submitted: beyond the scope of the modules so far but will learn this in future modules.
+* 'Scroll to Top' and internal navigation on Gallery page: a 'Scroll to Top' button would make navigating the gallery page much easier, especially on mobile devices. As the 
+galleries expand, adding in internal navigation so users can jump to the gallery sections they're interested in would make the user experience much better.
+
 
 ## Technologies Used
 
@@ -130,16 +169,36 @@ layout, the Nav Menu and Contact Form.
 #### Other:
 * [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 * [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
-* [CSS-Tricks](https://css-tricks.com/) - Used as a general resource for CSS tips and questions
-* [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials
+* [CSS-Tricks](https://css-tricks.com/) - Used as a general resource for CSS tips and questions.
+* [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials.
+* [Hover.CSS](https://ianlunn.github.io/Hover/) - Used for button and icon hover effects.
+* [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this 
+[README](https://github.com/NickChapman1988/SleepingDragonTerrain/blob/master/README.md).
+* [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
+* [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 
 
 ## Testing
 * Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the 'Submit' 
 button on the Contact Form without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
 * Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. For a better UX experience, I made sure 
-each link has either a colour change colour-changing icon when hovered (with exception of the logo when visible) and included a target="_blank" attribute so that a new 
+each link has either a colour change or colour-changing icon when hovered (with exception of the logo when visible) and included a target="_blank" attribute so that a new 
 browser tab is opened when clicked.
+
+* Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
+
+    * Android Mobile:
+        * **Samsung:** Galaxy S8, Galaxy S20, Galaxy S21, Note 8
+        * **Google:** Pixel 5
+
+    * Android Tablet:
+        * **Samsung:** Tab A6, Tab S4
+    
+    * IOS Mobile:
+        * **iPhone:** 11 Pro, 12
+    
+    * IOS Tablet:
+        * **iPad:** Pro 12.9 2020, Mini 2019
 
 ## Project Bugs and Solutions
 
@@ -149,7 +208,7 @@ browser tab is opened when clicked.
 * H1 title would wrap onto two and then three lines as screen size reduced, expanding header and taking up too much screen space. 
  Changed font size to use 'vh' instead of absolute size so that text would scale better with screen size; this worked to make the font size more responsive for smaller 
  devices, but made it too small for screens with greater width than height (i.e. desktops and any device in a landscape position). Finally changed to 4vmax to use 
- the larger of vw or vh, which allowed a responsive title size across all devices. 
+ the larger of vw or vh, which allowed a responsive one-line title size across all devices. 
 
 ## Deployment
 ## Credits
