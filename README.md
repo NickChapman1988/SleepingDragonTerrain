@@ -207,7 +207,7 @@ browser tab is opened when clicked.
         * **iPad:** Pro 12.9 2020, Mini 2019
 
 
-        Tested on Chrome, Firefox
+        Tested on Chrome, Firefox, Safari and UC
 
 ## Project Bugs and Solutions
 
@@ -219,8 +219,15 @@ browser tab is opened when clicked.
  devices, but made it too small for screens with greater width than height (i.e. desktops and any device in a landscape position). Finally changed to 4vmax to use 
  the larger of vw or vh, which allowed a responsive one-line title size across all devices. 
 
+ * [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) highlighted page loading issues with the Gallery page but couldn't identify what the cause of 
+ the error was. Presumably this is down to the size and quantity of images being loaded; so far, there have been no loading errors for the gallery whilst testing on actual 
+ devices and the page passed as mobile friendly so I don't believe there is cause for concern.
+
  * Testing on IOS devices caused gallery images to stretch massively; after some reading, this appears to be a known bug with no definitive fix. Tried several suggested solutions 
- including setting height: max-content, using Bootstrap .img-responsive, setting container to display: flex and using align-items: flex-start. 
+ including setting height: max-content, using Bootstrap .img-responsive, setting container to display: flex and using align-items: flex-start. Settled for simply setting fixed 
+ height of 350px for all images as a workaround for IOS devices as shown below:
+
+![Image](assets/images/iphone-sshot-before-1.jpg)  ![Image](assets/images/iphone-sshot-fix-1.jpg)
 
 ## Deployment
 * Go to [GitHub](https://github.com/) and sign in, or sign up for an account.
