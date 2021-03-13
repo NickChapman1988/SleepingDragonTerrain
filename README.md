@@ -32,6 +32,10 @@ and easily find a reliable commission service for whatever scope of project they
 This is a specialist commission service website intended to be accessible on all devices. My aim with the project was to present a clean, slick appearance 
 that makes it easy for users to engage with the content, browse a gallery of previous work and book the commission service for their own projects.
 
+![Image](assets/images/amiresponsive.jpg)
+
+---
+
 ## UX
 ## Strategy
 
@@ -188,8 +192,10 @@ browser tab is opened when clicked.
 * Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
 
     * Android Mobile:
-        * **Samsung:** Galaxy S8, Galaxy S20, Galaxy S21, Note 8
+        * **Samsung:** Galaxy S8, Galaxy S10, Galaxy S20, Galaxy S21, Note 8
         * **Google:** Pixel 5
+        * **OnePlus:** 8
+        * **Motorola:** Moto G7 Play
 
     * Android Tablet:
         * **Samsung:** Tab A6, Tab S4
@@ -200,6 +206,9 @@ browser tab is opened when clicked.
     * IOS Tablet:
         * **iPad:** Pro 12.9 2020, Mini 2019
 
+
+        Tested on Chrome, Firefox
+
 ## Project Bugs and Solutions
 
 * Social icons in footer would wrap onto two lines on screens between 564px and 664px. Solved by reducing padding of icons to 5px instead of 10px
@@ -209,6 +218,8 @@ browser tab is opened when clicked.
  Changed font size to use 'vh' instead of absolute size so that text would scale better with screen size; this worked to make the font size more responsive for smaller 
  devices, but made it too small for screens with greater width than height (i.e. desktops and any device in a landscape position). Finally changed to 4vmax to use 
  the larger of vw or vh, which allowed a responsive one-line title size across all devices. 
+
+ * Using Safari caused gallery images to stretch massively; after some reading, this appears to be a known Safari bug. 
 
 ## Deployment
 ## Credits
