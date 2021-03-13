@@ -219,9 +219,19 @@ browser tab is opened when clicked.
  devices, but made it too small for screens with greater width than height (i.e. desktops and any device in a landscape position). Finally changed to 4vmax to use 
  the larger of vw or vh, which allowed a responsive one-line title size across all devices. 
 
- * Using Safari caused gallery images to stretch massively; after some reading, this appears to be a known Safari bug. 
+ * Testing on IOS devices caused gallery images to stretch massively; after some reading, this appears to be a known bug with no definitive fix. Tried several suggested solutions 
+ including setting height: max-content, using Bootstrap .img-responsive, setting container to display: flex and using align-items: flex-start. 
 
 ## Deployment
+* Go to [GitHub](https://github.com/) and sign in, or sign up for an account.
+* Once a Github account was created, I opened a new repository by clicking the green button "new". To create this project, I used the Code Institute's student 
+[template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Click on the green "gitpod" button to open [Gitpod](https://gitpod.io/), a cloud-based version control software or IDE, which was used to write all code for this project.
+- It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/NickChapman1988/SleepingDragonTerrain)
+- Under "Settings", scroll down to Github Pages and select "Master Branch" in the Source section, to where the page was automated.
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed
+- To access the code, it can be run locally by either selecting "clone" which provides a URL to use on a local machine or "download" to download the zip file on to a local machine.
+
 ## Credits
 
 * The ability to add partial borders to the navbar was made possible thanks to [this guide](https://dev.to/designfrontier/css-only-partial-width-borders-4lcf) from Daniel Sellers.

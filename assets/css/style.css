@@ -370,6 +370,7 @@ footer {
 
 .gallery-column img {
     padding: 1px; /*Small gap between images*/
+    max-height: 350px;
 }
 
 .gallery-block {
