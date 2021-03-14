@@ -113,6 +113,8 @@ as the back-up font. 'Raleway' was chosen because of it's thin weight and elegan
 ### Icons
 * Font Awesome was used extensively to provide appropriate icons, such as for social media icons in the footer, menu bar icons and accompanying much of the text content on pages.
 
+---
+
 ## Features
 #### Navbar
 * I wanted users to easily be able to navigate the site from every page.
@@ -154,6 +156,7 @@ empty forms
 * 'Scroll to Top' and internal navigation on Gallery page: a 'Scroll to Top' button would make navigating the gallery page much easier, especially on mobile devices. As the 
 galleries expand, adding in internal navigation so users can jump to the gallery sections they're interested in would make the user experience much better.
 
+---
 
 ## Technologies Used
 
@@ -183,6 +186,7 @@ layout, the Nav Menu and Contact Form.
 * [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
 * [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 
+---
 
 ## Testing
 * Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the 'Submit' 
