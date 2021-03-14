@@ -276,8 +276,11 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 ## Credits
 
 * The ability to add partial borders to the navbar was made possible thanks to [this guide](https://dev.to/designfrontier/css-only-partial-width-borders-4lcf) from Daniel Sellers.
-* 'Grow Shadow' and 'Icon Grow' hover effects courtesy of [Hover.CSS](https://ianlunn.github.io/Hover/) by Ian Lunn. 
+* 'Grow Shadow' and 'Icon Grow' hover effects courtesy of [Hover.CSS](https://ianlunn.github.io/Hover/) by Ian Lunn.
+* Favicon added with help from [this article](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html) written by Erin Glass. 
 
 ## Acknowledgements
 
-* 
+* My Mentor, **Nishant Kumar**, for his guidance throughout this project.
+* The Slack Community for their help and support.
+* My wife and son for their endless patience, support and lending of devices for testing!
