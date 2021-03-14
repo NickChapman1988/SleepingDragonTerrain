@@ -181,8 +181,8 @@ layout, the Nav Menu and Contact Form.
 * [CSS-Tricks](https://css-tricks.com/) - Used as a general resource for CSS tips and questions.
 * [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials.
 * [Hover.CSS](https://ianlunn.github.io/Hover/) - Used for button and icon hover effects.
-* [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this 
-[README](https://github.com/NickChapman1988/SleepingDragonTerrain/blob/master/README.md).
+* [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices (found at the top of this 
+[README](https://github.com/NickChapman1988/SleepingDragonTerrain/blob/master/README.md)).
 * [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
 * [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 
@@ -235,7 +235,9 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
 ![Image](assets/images/validation-contact.jpg)
 
-* Validation flagged up possible warning around the use of semantic elements. This was corrected simply be changing the elements in question to more appropriate ones.
+* Errors on Contact form: I'd missed out the ID for the 'Timeframe' field, and there was a typo in the 'Project Description' ID value (an extra 'r' on the end). I simply 
+entered the correct ID value for the 'Timeframe' label, and deleted the typo for the 'Project Description' ID.
+* Validation flagged up possible warning around the use of semantic elements. This was corrected simply by changing the elements in question to more appropriate ones.
 
 ![Image](assets/images/html-validation.jpg)
 
@@ -259,7 +261,7 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
  * Testing on IOS devices caused gallery images to stretch massively; after some reading, this appears to be a known bug with no definitive fix. Tried several suggested solutions 
  including setting height: max-content, using Bootstrap .img-responsive, setting container to display: flex and using align-items: flex-start. Settled for simply setting fixed 
- height of 350px for all images as a workaround for IOS devices as shown below:
+ max-height of 350px for all images as a workaround for IOS devices as shown below:
 
 ![Image](assets/images/iphone-sshot-before-1.jpg)  ![Image](assets/images/iphone-sshot-fix-1.jpg)
 
