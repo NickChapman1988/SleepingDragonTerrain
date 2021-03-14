@@ -1,3 +1,5 @@
+![Image](assets/images/home-sshot.jpg)
+
 # Sleeping Dragon Terrain – Milestone Project 1
 ### View the live project [here.](https://nickchapman1988.github.io/SleepingDragonTerrain/)
 
@@ -224,6 +226,18 @@ browser tab is opened when clicked.
 ![Image](assets/images/contact-mob-friendly.jpg)
 
 #### Validation
+
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
+
+![Image](assets/images/validation-contact.jpg)
+
+* Validation flagged up possible warning around the use of semantic elements. This was corrected simply be changing the elements in question to more appropriate ones.
+
+![Image](assets/images/html-validation.jpg)
+
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+![Image](assets/images/css-validation.jpg)
 
 ## Project Bugs and Solutions
 
