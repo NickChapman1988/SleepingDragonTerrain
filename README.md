@@ -245,7 +245,7 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
 ![Image](assets/images/css-validation.jpg)
 
-## Project Bugs and Solutions
+#### Project Bugs and Solutions
 
 * Social icons in footer would wrap onto two lines on screens between 564px and 664px. Solved by reducing padding of icons to 5px instead of 10px
  to keep icons on single line on all screen sizes
@@ -264,6 +264,26 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
  max-height of 350px for all images as a workaround for IOS devices as shown below:
 
 ![Image](assets/images/iphone-sshot-before-1.jpg)  ![Image](assets/images/iphone-sshot-fix-1.jpg)
+
+#### Testing User Stories
+
+"As a busy parent with a full time job, I don't have time to build terrain for myself. I want to use what time I have playing the game, not building scenery."
+> *As the user enters the site, the site purpose is immediately presented to make it clear that this is where to get terrain built, and the 'Get in Touch' presents an 
+immediate option to contact the business quickly and easily in order to book commission builds as speedily as possible.*
+
+"I wouldn't know where to start building my own scenery. I'd much rather get someone else to make whatever I need and buy it ready to game with."
+> *The user has ample opportunity to view existing work across multiple locations on the website, making it much easier to find something they're interested in and see what's 
+on offer. They can then easily access any of the available buttons and links to access the Contact Form and make a project request.*
+
+"It costs just as much money to make my own terrain as to buy it ready-made, so it's just quicker to get it made for me."
+> *Users can see what work has been done in the past through the Gallery page and other locations, with any questions about materials used and build time found on the About page, 
+before quickly and easily accessing the Contact form to book work*
+
+"I'd love a full custom built gaming table, but wouldn't have a clue how to do it myself. Normally I'd buy scenery at shows but with Covid going round there are no shows 
+happening, and it's really hard to find places to get custom boards made online."
+> *The website is cleanly presented and easily accessible to all users, as well as presenting clear information about what services are available firstly through the Home page 
+hero image/jumbotron and with further in-depth information presented across the Home page and About page. The Gallery allows users to see past work in lieu of viewing in person, 
+and the Contact page presents a simple method of getting in touch and enquiring about the services offered.*
 
 ## Deployment
 * Go to [GitHub](https://github.com/) and sign in, or sign up for an account.
