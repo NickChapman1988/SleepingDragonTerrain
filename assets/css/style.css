@@ -292,6 +292,7 @@ footer {
     text-align: center;
     margin: 50px 0;
 
+    /* Animation code from CI's "Love Running" Mini Project */
     animation-name: jumbo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
